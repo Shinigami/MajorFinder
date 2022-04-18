@@ -5,7 +5,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "Assessment0")
 public class Assessment {
-
     @Id
     private String id;
     private String question;

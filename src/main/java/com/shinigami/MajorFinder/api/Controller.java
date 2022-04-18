@@ -15,7 +15,6 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/api")
 class Controller {
-
     private final Logger log = LoggerFactory.getLogger(Controller.class);
 
     @Autowired

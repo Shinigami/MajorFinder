@@ -5,7 +5,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "Results")
 public class Results {
-
     @Id
     private String id;
     String username;

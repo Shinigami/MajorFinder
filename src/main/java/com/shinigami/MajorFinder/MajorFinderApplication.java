@@ -2,6 +2,7 @@ package com.shinigami.MajorFinder;
 
 import com.shinigami.MajorFinder.entities.Assessment;
 import com.shinigami.MajorFinder.repositories.AssessmentRepository;
+import com.shinigami.MajorFinder.util.Algorithm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -11,7 +12,6 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 @SpringBootApplication
 @EnableMongoRepositories
 public class MajorFinderApplication implements CommandLineRunner {
-
 	@Autowired
 	AssessmentRepository assessmentRepository;
 
