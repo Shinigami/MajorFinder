@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+input,button {
+  appearance: none;
+  background: white;
+  border: black;
+  outline: none;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+form {
+  display: block;
+  position: relative;
+}
