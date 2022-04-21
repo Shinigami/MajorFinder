@@ -2,7 +2,6 @@ package com.shinigami.MajorFinder.util;
 
 import java.util.*;
 
-/* Unused Algorithm Class that will be rewritten in Javascript within the Frontend */
 public class Algorithm {
 
     public static Map<String, Float> m;
@@ -31,4 +30,3 @@ public class Algorithm {
         m.entrySet().stream().sorted(Map.Entry.<String, Float>comparingByValue()).forEach(System.out::println);
     }
 }
-
