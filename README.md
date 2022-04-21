@@ -39,6 +39,12 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Running the Backend
+
+To run the backend, open pom.xml in Intellij. Next, navigate to the [resources folder](https://github.com/Shinigami/MajorFinder/tree/main/src/main/resources) and input the proper API keys given in the documentation. 
+
+Next, simply run the configuration that should be already set in Intellij.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
