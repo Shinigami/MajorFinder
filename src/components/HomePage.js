@@ -23,7 +23,7 @@ function HomePage({LogoutUser,error, user, BeginUser}) {
 
     <div className='HomePage'>
         {(user.began == "yes") ? (
-            <Questions/>) :
+            <Questions/>, user,BeginUser) :
             (<div classname="home">
             <h2> Welcome, <span>{user.name}</span></h2>
     

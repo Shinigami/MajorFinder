@@ -42,3 +42,13 @@
   font-size: 3.5rem;
   margin-top: 10%;
 }
+.btn {
+  color: blueviolet;
+  background-color: antiquewhite;
+  padding: 15px;
+	border: none;
+	border-radius: 12px;
+	min-width: 250px;
+  font-size: 18px;
+}
+
