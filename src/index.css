@@ -3,22 +3,24 @@
   padding: 0;
   box-sizing: border-box;
   font-family:Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 5px 5px 10px black;
 }
 input,button {
   appearance: none;
-  background: white;
+  background: rgb(232, 230, 230);
   border: black;
   outline: none;
   align-items: center;
   justify-content: center;
   align-self: center;
+  cursor: pointer;
 }
 .App {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aqua;
+  background-color: rgb(70, 140, 220);
 }
 form {
   display: block;
